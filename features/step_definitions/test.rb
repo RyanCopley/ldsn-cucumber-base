@@ -8,7 +8,7 @@ Then(/^I will search for "([^"]*)"$/) do |arg1|
 end
 
 Then(/^I should see "([^"]*)"$/) do |arg1|
-	page.should have_content("what's my broken password?")
+	page.should have_content("what's my password?")
 end
 
 Then(/^I will click the about link$/) do
