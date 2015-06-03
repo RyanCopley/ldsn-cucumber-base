@@ -12,4 +12,5 @@ Then(/^I should see "([^"]*)"$/) do |arg1|
 end
 
 Then(/^I will click the about link$/) do
+	save_screenshot('test.png')
 end
